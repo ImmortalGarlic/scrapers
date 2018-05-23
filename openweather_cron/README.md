@@ -26,6 +26,6 @@
 # auto weather data retriever for openweathermap
 
 PYTHONIOENCODING = 'utf-8'
-0,30 * * * * /usr/bin/python3 /home/irep/sdb/work/weather_cron/openweather.py
-15,45 * * * * /home/irep/plugins/mc mirror /home/irep/sdb/work/weather_cron/ s3/di-datastore/openweathermap/
+0,30 * * * * /usr/bin/python3 /home/ubuntu/sdb/work/weather_cron/openweather.py
+15,45 * * * * /home/ubuntu/plugins/mc mirror /home/ubuntu/sdb/work/weather_cron/ s3/openweathermap/
 ```

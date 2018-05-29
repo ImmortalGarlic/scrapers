@@ -1,8 +1,10 @@
 ### OpenWeatherMap API 経由で気象情報の取得スクリプト
 
 #### Pre-requisites
-- Python Version >= 3.4
-- requests, pytz
+- Python3
+- requests
+- pytz
+- minio/mc
 
 #### 使い方
 ``` $ python3 openweather.py ```

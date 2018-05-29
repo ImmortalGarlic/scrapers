@@ -35,7 +35,7 @@ def weather_get(id):
 
 def dump(city, dt, data):
     month = dt[:(dt.index('-') + 3)].replace('-', '')
-    hour = dt[:dt.index(':')] + '時'
+    hour = dt[:dt.index(':')] + 'hour'
     try:
         with open ('{}/{}/{}.json'.format(ab_path, city, month), 'r', encoding='utf-8') as f:
             temp_json = json.load(f)
@@ -68,5 +68,5 @@ def main():
     print ('...\nDone.')
 
 if __name__ == '__main__':
-    ab_path = '/home/irep/sdb/work/weather_cron'
+    ab_path = '/home/ubuntu/sdb/work/weather_cron'
     main()

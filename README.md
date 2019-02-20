@@ -14,3 +14,4 @@
 - [Indeed jobs scraper](indeed_scraper)
   - this scraper is part of Resume Generator project
 - [Meigaza schedule monitor](https://github.com/ImmortalGarlic/scrapers/tree/master/meigaza)
+- [JSDA scraper](jsda)

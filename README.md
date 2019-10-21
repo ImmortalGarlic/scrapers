@@ -4,6 +4,8 @@
 - Python3
 - selenium
 - phantomjs
+- requests
+- bs4
 ## List of scrapers
 - [Instagram hashtag scraper](insta_scraper)
 - [openweather data downloader](openweather_cron)
@@ -11,3 +13,5 @@
   - this scraper is part of [jandan-tomb-raider](https://github.com/ImmortalGarlic/jandan-tomb-raider) project
 - [Indeed jobs scraper](indeed_scraper)
   - this scraper is part of Resume Generator project
+- [Meigaza schedule monitor](https://github.com/ImmortalGarlic/scrapers/tree/master/meigaza)
+- [JSDA scraper](jsda)
